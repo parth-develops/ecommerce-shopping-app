@@ -42,7 +42,7 @@ const Cart = ({ cart, emptyCartHandler, removeFromCartHandler, updateCartQtyHand
   }
 
   return (
-    <Container>
+    <Container className={classes.theContainer}>
       <div className={classes.toolbar} />
       <Typography className={classes.title} gutterBottom variant='h3'>Your Shopping Cart</Typography>
       {!cart?.line_items.length ? <EmptyCart /> : <FilledCart />}

@@ -59,7 +59,7 @@ const Checkout = ({ cart, order, onCaptureCheckout, error, emptyCartHandler }) =
   ) : isFinished ? (
     <>
       <div>
-        <Typography variant='h5'>Thank you for purchasing from Ecom Shop</Typography>
+        <Typography variant='h5'>Thank you for purchasing from E-com Shop</Typography>
         <Divider className={classes.divider} />
       </div>
       <br />
